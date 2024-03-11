@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "my-project-19bcc",
+    "my-project-19bcc": "my-project-19bcc"
+  },
+  "targets": {},
+  "etags": {}
+}

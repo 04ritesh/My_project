@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Assuming the container has a class named "image-text-container" */
+
+.ci{
+  margin-left: 520px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#mainc{
+    height: 100vh;
+}
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+
+
+
+
+.gr-1 {
+    /* background: linear-gradient(170deg, #01E4F8 0%, #1D3EDE 100%); */
+    background: linear-gradient(170deg, #51b0ec 0%, #6bb1cd 100%);
+  }
+  
+  .gr-2 {
+    background: linear-gradient(170deg, #B4EC51 0%, #429321 100%);
+  }
+  
+  .gr-3 {
+    /* background: linear-gradient(170deg, #C86DD7 0%, #3023AE 100%); */
+    background: linear-gradient(170deg, #B4EC51 0%, #429321 100%);
+  }
+*{transition: .5s;}
+
+.h-100{height: 100vh !important;}
+.align-middle{
+  position: relative;
+  top:50%;
+}
+
+.column{
+  margin-top:3rem;
+  padding-left:3rem;
+ cursor: pointer;
+}
+.card{
+  min-height:170px;
+  margin: 0;
+  padding: 1.7rem 1.2rem;
+  border: none;
+  border-radius: 0;
+  color:rgba(0,0,0,1);
+  letter-spacing: .05rem;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: 0 0 21px rgba(0,0,0,.27);
+  .txt{
+    margin-left:-3rem;
+    z-index: 1;
+    h1{
+      font-size:2.5rem;
+      font-weight: 300;
+      text-transform: uppercase;
+      font:bold;
+    }
+    p{
+      font-size:.7rem;
+      /* font-family: 'Open Sans', sans-serif; */
+      letter-spacing: 0rem;
+      margin-top:33px;
+      opacity:0;
+      color:rgba(255,255,255,1);
+    }
+  }
+  a{
+    z-index:3;
+    font-size: .7rem;
+    color:rgba(0,0,0,1);
+    margin-left:1rem;
+    position:relative;
+    bottom: -.5rem;
+    text-transform: uppercase;
+    &:after {
+      content:"";
+      display: inline-block;
+      height: 0.5em;
+      width: 0;
+      margin-right: -100%;
+      margin-left: 10px;
+      border-top: 1px solid rgba(255,255,255,1);
+      transition: .5s;
+    }
+  }
+        
+  .ico-card{
+    position:absolute;
+    top: 0;
+    left:0;
+    bottom:0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  i{
+    position: relative;
+    right: -50%;
+    top:60%;
+    font-size: 12rem;
+    line-height: 0;
+    opacity: .2;
+    color:rgba(255,255,255,1);
+    z-index: 0;
+   }
+}
+
+.aboutus{
+  height: 100vh;
+}
+
+.ECE{
+  background-image: ;
+}
+
+.negp{
+  margin-top: -9rem;
+}
+.iemp{
+  height: 50px;
+}
+
+#neg{
+  padding-top: -9rem;
+}
+/*        image enlarging    */
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+  margin: 20% auto;
+  padding: 20px;
+  width: 60%;
+  background-color: #fefefe;
+  border: 1px solid #888;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.enlarged-image {
+  width: 100%;
+  height: auto;
+}
+
+
